@@ -11618,6 +11618,17 @@ header.masthead .masthead-heading {
   border-radius: 100%;
   background-color: #ffc800;
 }
+
+.oyunumuz{
+  text-decoration: none;
+  color: #000;
+  transition: .5s;
+}
+
+.oyunumuz:hover{
+  transform: scale(1.5);
+}
+
 .ekip1{
   transition: .5s;
   border-radius: 50%;
