@@ -626,6 +626,42 @@ progress {
 .satinalicerik{
   font-size: 30px;
   text-decoration: none;
+  transition: 0.5s;
+}
+#oyunumuz{
+  color: #FFC800;
+  transition: 0.5s;
+}
+#oyunumuz:hover{
+  color: #CCA000;
+}
+
+#arrow{
+  transition: 0.5s;
+}
+
+.indir{
+  transition: .5s !important;
+}
+
+.indir:hover{
+  transform: scale(1.2) !important;
+}
+
+.arrow{
+  width: 150px;
+  height: 270px;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.2s linear;
+  position: absolute;
+  margin-left: 320px;
+  margin-top: -160px;
+  visibility: hidden;
+}
+
+#timeline-image:hover + #arrow{
+  visibility: visible;
+  opacity: 1;
 }
 
 .img-thumbnail {
@@ -7698,6 +7734,23 @@ textarea.form-control-lg {
 
 .text-center {
   text-align: center !important;
+  position: relative; 
+  
+}
+
+.owl-carousel{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-4{
+  margin: 3px;
+  padding: 3px;
+  flex: 30%;
+}
+
+.text-center iframe h4 p{
+  display: inline !important;
 }
 
 .text-decoration-none {
