@@ -11623,6 +11623,8 @@ header.masthead .masthead-heading {
   text-decoration: none;
   color: #000;
   transition: .5s;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 .oyunumuz:hover{
